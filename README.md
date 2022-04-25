@@ -61,7 +61,7 @@ Credit risk is an inherently unbalanced classification because good loans far ou
 
 Of the six algorithms run, the EasyEnsembleClassifier had the best outcomes. Its balanced accuracy score was clearly the highest at 0.93. It's precision and recall results were also the highest of all the models. 
 
-Being the highest is a relative concept, though. Precision is the measure of how reliable a positive classification is and, in the case of identifying a few high-risk loans among thousands of low-risk loans, it's the critical factor. Even though the other five models performed worse than the EasyEnsembleClassifier, this model only returned a precision score of 0.09. In other words, it correctly identified high-risk loans only 10% of the time. 
+Being the highest is a relative concept, though. Precision is the measure of how reliable a positive classification is and, in the case of identifying a few high-risk loans among thousands of low-risk loans, it's the critical factor. Even though the other five models performed worse than the EasyEnsembleClassifier, this model only returned a precision score of 0.09. In other words, it correctly identified high-risk loans less than 10% of the time. 
 
 For this reason, we cannot recommend the use of any of these models to perform the task that LendingClub has requested of accurately predicting credit risk. 
 
